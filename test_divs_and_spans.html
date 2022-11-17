@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CITI</title>
+</head>
+<body>
+
+    <p>Utilizando a tag SPAN, por padrão, o display possui o tamanho do conteúdo.<br>isso faz com que cada span ocupe uma coluna de largura do bloco de span.<br>Além disso, a margin do span só se aplica as suas laterais. Isso significa que não se pode estabelecer margin top e botton</p>
+    <div class="container_span">
+        <span class="element">part one</span>
+        <span class="element">part two</span>
+    </div>
+
+    <p>Utilizando DIV, cada div ocupa toda a largura da tela, portanto , formando uma linha completa.<br>para Divs é possível estabelecer margens para todas as direções</p>
+    <div class="container_div">
+        <div class = "element">part one</div> 
+        <div class = "element">part two</div> 
+    </div>
+
+    <p>Misturando algumas divs com spans em um mesmo bloco</p>
+    <div class="container_div_span">
+        <div class = "element">part one</div>
+        <span class = "element">part two</span>
+        <span class = "element">part tree</span>
+        <span class = "element">part four</span>
+        <span class = "element">part five</span>
+        <div class = "element">part six</div>
+    </div>
+</body>
+</html>
