@@ -47,6 +47,9 @@ li:hover {
 body div{
     display: flex;
 }
+.container_pers {
+    flex-wrap: wrap;
+}
 section {
     background-color: white;
     margin: 20px;
