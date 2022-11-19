@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'a ...' 'a ...' 'a ...' 'a ...' 'teste teste' 'teste teste' 'teste teste' 'teste teste';
+    gap: 10px;
+    padding: 10px;
+}
+.container div {
+    background: url('bill.png') no-repeat center;
+    background-size: contain;
+    padding: 20px;
+
+}
+#div1 {
+    background-size: 115%;
+    background-position: 0% bottom;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#div2 {
+    background-size: 300%;
+    background-position: 60% 60%;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#div3 {
+    background-size: 70%;
+    background-position: 50% 0%;
+}
+#div4 {
+    background-size: 40%;
+    background-position: 100% 30%;
+}
+#div5 {
+    background-size: contain;
+    grid-area: teste;
+}
